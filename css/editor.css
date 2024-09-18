@@ -1,0 +1,53 @@
+
+#playground {
+    display:flex;
+    max-height: 65%;
+    height: 100%;
+    clear: both;
+}
+
+.side-panel {
+    
+    justify-content: left;
+    border-right: 5px double white;
+    width: 20%;
+    
+}
+.editor {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    width: 100%;
+    display: block;
+    overflow-y:scroll;
+    overflow-x: hidden;
+
+}
+.command {
+    font-family: 'Courier New', Courier, monospace;
+    border-top: 5px double white;
+    height: 100%;
+    display: block;
+}
+
+.lineC {
+    background-color: #1c1c1c;
+    color: white;
+    border: 0px;
+}
+.lineC:focus {
+    background-color: #251c31;
+    border: 0px;
+}
+
+.message {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+
+}
+
+.cool-cmd {
+    background-color: #1c1c1c;
+    color: white;
+    border: 0.5px solid white;
+}
